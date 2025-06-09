@@ -280,8 +280,6 @@ blocks=[[True,True,True],
 
 maze_grid = []
 
-init()
-
 with open(r"maze.txt", "r", encoding="utf-8-sig") as f:
     for line in f:
         maze_grid.append(list(line.rstrip("\n")))
