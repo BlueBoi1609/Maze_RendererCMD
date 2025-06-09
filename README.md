@@ -54,3 +54,12 @@ Width = 449
 Height = 141 
 
 It still might not look good in your computer as this is still a prototype
+
+
+CONTROLS:
+
+TRUN LEFT = a
+TURN RIGHT = d
+FORWARD = w
+
+
