@@ -282,7 +282,7 @@ maze_grid = []
 
 init()
 
-with open("C:/Users/User/Desktop/Python projects/Maze/Main/maze.txt", "r", encoding="utf-8-sig") as f:
+with open(r"maze.txt", "r", encoding="utf-8-sig") as f:
     for line in f:
         maze_grid.append(list(line.rstrip("\n")))
 
