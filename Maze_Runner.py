@@ -1,6 +1,5 @@
 import sys
 from wall_coords import *
-import subprocess
 from colorama import init
 
 def Screen():
