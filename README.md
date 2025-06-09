@@ -3,6 +3,8 @@ INTRO:
 
 This is a maze renderer made in python without any libraries only in-built libraries which renders in cmd
 
+I actually took this challeange to make this without any libraries 
+
 
 
 Maze v3:
