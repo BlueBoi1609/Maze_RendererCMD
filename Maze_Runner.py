@@ -1,4 +1,4 @@
-import sys
+
 from wall_coords import *
 
 def Screen():
