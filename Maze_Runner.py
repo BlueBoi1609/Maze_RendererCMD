@@ -40,8 +40,7 @@ def Screen():
             # Turn it into a single string with newlines
     screen_string = "\n".join(screen_buffer)
 
-    sys.stdout.write(screen_string)
-    sys.stdout.flush()
+    print(screen_string)
 
 def walls_not_visible():
     global left_wall_1_,left_wall_2_,left_wall_3_,left_wall_4_,left_wall_5_,left_wall_6_,left_wall_7_,left_wall_8_,right_wall_1_,right_wall_2_,right_wall_3_,right_wall_4_,right_wall_5_,right_wall_6_,right_wall_7_,right_wall_8_,left_face_1_,left_face_2_,left_face_3_,left_face_4_,left_face_5_,left_face_6_,left_face_7_,left_face_8_ ,right_face_1_,right_face_2_,right_face_3_,right_face_4_,right_face_5_,right_face_6_,right_face_7_,right_face_8_,front_block_1_,front_block_2_,front_block_3_,front_block_4_,front_block_5_,front_block_6_,front_block_7_,front_block_8_,front_block_9_
@@ -360,7 +359,7 @@ while True:
     
     Screen()
 
-    movement=input("\x1b[2K")
+    movement=input()
 
     if movement == "a":
             if player[2] == "N":
