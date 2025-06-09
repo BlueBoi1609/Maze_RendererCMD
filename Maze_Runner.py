@@ -1,6 +1,5 @@
 import sys
 from wall_coords import *
-from colorama import init
 
 def Screen():
     global screen_rows
