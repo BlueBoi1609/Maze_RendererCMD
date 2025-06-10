@@ -1,4 +1,4 @@
-INTRO:
+#INTRO:
 
 
 This is a maze renderer made in python without any libraries only in-built libraries which renders in cmd
@@ -7,7 +7,7 @@ I actually took this challeange to make this without any libraries
 
 
 
-Maze v3:
+#Maze v3:
 
 
 It generates a maze using hunt and kill method (https://weblog.jamisbuck.org/2011/1/24/maze-generation-hunt-and-kill-algorithm) the maze data is stored in this file 
@@ -18,21 +18,21 @@ Num=** (Must be an odd number)
 
 
 
-maze.txt:
+#maze.txt:
 
 
 it is the file in which the maze data is stored
 
 
 
-wall_coords.py:
+#wall_coords.py:
 
 
 It stores the coordinate data required for rendering the maze in 3d perspective
 
 
 
-Maze_Runner.py:
+#Maze_Runner.py:
 
 
 It is the actual file for rendering in the CMD it is still a prototype ;>
@@ -56,7 +56,7 @@ Height = 141
 It still might not look good in your computer as this is still a prototype
 
 
-CONTROLS:
+#CONTROLS:
 
 TRUN LEFT = a
 TURN RIGHT = d
