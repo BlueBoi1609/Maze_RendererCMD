@@ -19,8 +19,8 @@ def Screen():
     temp_var=0
     
     for index_y,y in enumerate(maze_grid):
-        screen_rows[temp_var+90].append("              ##")
-        screen_rows[temp_var+91].append("              ##")
+        screen_rows[temp_var+90].append("              ")
+        screen_rows[temp_var+91].append("              ")
         for index_x,x in enumerate(y):
             if (player[0],player[1]) == (index_x,index_y):
                 if player[2] == "N":
